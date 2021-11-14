@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta> 
+        <title>White House Restaurant</title>
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Kings&family=Prompt&display=swap" rel="stylesheet">
+        
+        <!-- CSS Styles -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css">
+
+        <!-- font-awesome -->
+        <script src="https://kit.fontawesome.com/97a6255118.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#">
+                <img src="./images/logonew.png" alt="logo" width="58" class="d-inline-block align-text-top" onclick="show_alert('Our logo')">
+                White House Restaurant  
+               </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex ms-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-sm btn-outline-dark" type="submit">Search</button>
+                  </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#HOME">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#MENU">MENU</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#OFFER">OFFERS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#CONTACT">CONTACT</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+          
+        <!-- Home Section -->
+        <section class="colored-section" id="HOME">
+            
+            <div>
+                <h1 class="titleh1 big-heading">White House Restaurant</h1>
+                <button type="button" class="btn btn-light">Order Online</button>
+                <p>No.235, pallekanda Road, Walasmulla, 82450</p>
+    
+            </div>
+    
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu-section p-3 mb-2 bg-dark text-white " id="MENU">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h1 class="big-heading"> MENU</h1>
+                </div>
+                <div class="col-lg-6">
+                    <p>The white house is sri lanka's restaurant.Our long standing staff and loyal clientele combine with the familiarity of our trademark flavors to make for a timeless and heart-warming during experience..</p>
+                </div>
+            </div>
+            <div class="row text-dark text-center">
+                <div class="menu-column col-lg-3 col-md-4 ">
+                    <div class="card">
+                        <h3>RICE</h3>
+                        <img src="./images/nasigoreng.jpg" alt="rice" onclick="show_alert('RICE')" >
+                        <div class="card-body">
+                            <ul>
+                                <li>Vegetable Rice</li>
+                                <li>Egg Rice</li>
+                                <li>Chicken Rice</li>
+                                <li>Mixed Rice</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+                <div class="menu-column col-lg-3 col-md-4 ">
+                    <div class="card">
+                        <h3>KOTTU</h3>
+                        <img src="./images/vegetablekoththu.jpg" alt="Kottu" onclick="show_alert('KOTTU')">
+                        <div class="card-body">
+                            <ul>
+                                <li>Vegetable Kottu</li>
+                                <li>Egg Kottu</li>
+                                <li>Chicken Kottu</li>
+                                <li>Mixed Kottu</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+                <div class="menu-column col-lg-3 col-md-4 ">
+                    <div class="card">
+                        <h3>NOODLES</h3>
+                        <img class="noodlesimg" src="https://c0.wallpaperflare.com/preview/148/951/690/basil-blur-bowl-cuisine.jpg" alt="Noodles"onclick="show_alert('NOODLES')">
+                        <div class="card-body">
+                            <ul>
+                                <li>Mixed Fried Noodles</li>
+                                <li>Sea Food Fried Noodles</li>
+                                <li>Egg Chicken Noodles</li>
+                                <li>Chinese Noodles</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+                <div class="menu-column col-lg-3 col-md-4 ">
+                    <div class="card">
+                        <h3>PIZZA</h3>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuM0bW8XHnBB6Z4T0nwTwnGpYctpWa3Synug&usqp=CAU" alt="Pizza" onclick="show_alert('PIZZA Coming Soon....')">
+                        <div class="card-body">
+                            <br>
+                            <p>Coming Soon..!</p>
+                            <br><br>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!-- Offer Section -->
+        <section class="offer-section p-3 mb-2 bg-dark text-white " id="OFFER">
+            <div class="row">
+                <div class="offer">
+                    <h1 class="big-heading offer-title"> Offers for you.!</h1>
+                    <img src="./images/offer.png" alt="offers"onclick="show_alert('Offers')">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section p-3 mb-2 bg-dark text-white " id="CONTACT">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-whatsapp-square"></i>
+            <i class="fas fa-envelope-square"></i>
+            <p>Copyright © 2021</p>
+        </section>
+
+        <script>
+            function show_alert(name){alert (name); }
+        </script>
+        
+
+    </body>
+</html>
